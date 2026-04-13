@@ -2,13 +2,13 @@
 
 This project is an intelligent cloud FinOps system designed to analyze GCP billing data and detect cost anomalies using a combination of machine learning and rule-based techniques. It provides an interactive dashboard for monitoring, analysis, and optimization of cloud expenses.
 
----
+
 
 ## Overview
 
 The application processes cloud billing data and identifies unusual patterns such as cost spikes, abnormal usage behavior, and inefficient resource utilization. It integrates statistical analysis with machine learning to improve detection accuracy and provide actionable insights.
 
----
+
 
 ## Features
 
@@ -19,7 +19,7 @@ The application processes cloud billing data and identifies unusual patterns suc
 * Optimization recommendations with estimated savings
 * ChatOps interface for querying data using natural language
 
----
+
 
 ## Tech Stack
 
@@ -29,7 +29,7 @@ The application processes cloud billing data and identifies unusual patterns suc
 * Scikit-learn
 * Plotly
 
----
+
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ cloud/
 │── README.md
 ```
 
----
+
 
 ## Input Requirements
 
@@ -55,7 +55,7 @@ The application expects a CSV file containing GCP billing data. The following co
 * CPU Utilization (%) (optional)
 * Memory Utilization (%) (optional)
 
----
+
 
 ## How to Run
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 streamlit run anomaly.py
 ```
 
----
+
 
 ## Methodology
 
@@ -108,7 +108,7 @@ streamlit run anomaly.py
 * Provides optimization recommendations
 * Estimates potential cost savings
 
----
+
 
 ## Output
 
@@ -120,7 +120,7 @@ The dashboard provides:
 * Detected anomalies with explanations
 * Optimization suggestions and savings estimates
 
----
+
 
 ## Future Improvements
 
@@ -129,13 +129,13 @@ The dashboard provides:
 * Multi-cloud support
 * Enhanced conversational interface
 
----
+
 
 ## Author
 
 Aswani Sachin
 
----
+
 
 ## License
 
